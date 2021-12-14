@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1A085DA27689BC0000F3662 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A085D927689BC0000F3662 /* AppDelegate.swift */; };
+		E1A085DC27689BC0000F3662 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A085DB27689BC0000F3662 /* SceneDelegate.swift */; };
+		E1A085DE27689BC0000F3662 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A085DD27689BC0000F3662 /* ViewController.swift */; };
+		E1A085E127689BC0000F3662 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A085DF27689BC0000F3662 /* Main.storyboard */; };
+		E1A085E327689BC1000F3662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1A085E227689BC1000F3662 /* Assets.xcassets */; };
+		E1A085E627689BC1000F3662 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A085E427689BC1000F3662 /* LaunchScreen.storyboard */; };
+		E1A085F127689BC1000F3662 /* nfc_real_tagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A085F027689BC1000F3662 /* nfc_real_tagTests.swift */; };
+		E1A085FB27689BC1000F3662 /* nfc_real_tagUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A085FA27689BC1000F3662 /* nfc_real_tagUITests.swift */; };
+		E1A085FD27689BC1000F3662 /* nfc_real_tagUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A085FC27689BC1000F3662 /* nfc_real_tagUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1A085ED27689BC1000F3662 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1A085CE27689BC0000F3662 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1A085D527689BC0000F3662;
+			remoteInfo = nfc_real_tag;
+		};
+		E1A085F727689BC1000F3662 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1A085CE27689BC0000F3662 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1A085D527689BC0000F3662;
+			remoteInfo = nfc_real_tag;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E1A085D627689BC0000F3662 /* nfc_real_tag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nfc_real_tag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1A085D927689BC0000F3662 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E1A085DB27689BC0000F3662 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E1A085DD27689BC0000F3662 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E1A085E027689BC0000F3662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1A085E227689BC1000F3662 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1A085E527689BC1000F3662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1A085E727689BC1000F3662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1A085EC27689BC1000F3662 /* nfc_real_tagTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nfc_real_tagTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1A085F027689BC1000F3662 /* nfc_real_tagTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nfc_real_tagTests.swift; sourceTree = "<group>"; };
+		E1A085F627689BC1000F3662 /* nfc_real_tagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nfc_real_tagUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1A085FA27689BC1000F3662 /* nfc_real_tagUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nfc_real_tagUITests.swift; sourceTree = "<group>"; };
+		E1A085FC27689BC1000F3662 /* nfc_real_tagUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nfc_real_tagUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1A085D327689BC0000F3662 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1A085E927689BC1000F3662 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1A085F327689BC1000F3662 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1A085CD27689BC0000F3662 = {
+			isa = PBXGroup;
+			children = (
+				E1A085D827689BC0000F3662 /* nfc_real_tag */,
+				E1A085EF27689BC1000F3662 /* nfc_real_tagTests */,
+				E1A085F927689BC1000F3662 /* nfc_real_tagUITests */,
+				E1A085D727689BC0000F3662 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1A085D727689BC0000F3662 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1A085D627689BC0000F3662 /* nfc_real_tag.app */,
+				E1A085EC27689BC1000F3662 /* nfc_real_tagTests.xctest */,
+				E1A085F627689BC1000F3662 /* nfc_real_tagUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1A085D827689BC0000F3662 /* nfc_real_tag */ = {
+			isa = PBXGroup;
+			children = (
+				E1A085D927689BC0000F3662 /* AppDelegate.swift */,
+				E1A085DB27689BC0000F3662 /* SceneDelegate.swift */,
+				E1A085DD27689BC0000F3662 /* ViewController.swift */,
+				E1A085DF27689BC0000F3662 /* Main.storyboard */,
+				E1A085E227689BC1000F3662 /* Assets.xcassets */,
+				E1A085E427689BC1000F3662 /* LaunchScreen.storyboard */,
+				E1A085E727689BC1000F3662 /* Info.plist */,
+			);
+			path = nfc_real_tag;
+			sourceTree = "<group>";
+		};
+		E1A085EF27689BC1000F3662 /* nfc_real_tagTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1A085F027689BC1000F3662 /* nfc_real_tagTests.swift */,
+			);
+			path = nfc_real_tagTests;
+			sourceTree = "<group>";
+		};
+		E1A085F927689BC1000F3662 /* nfc_real_tagUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E1A085FA27689BC1000F3662 /* nfc_real_tagUITests.swift */,
+				E1A085FC27689BC1000F3662 /* nfc_real_tagUITestsLaunchTests.swift */,
+			);
+			path = nfc_real_tagUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1A085D527689BC0000F3662 /* nfc_real_tag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1A0860027689BC1000F3662 /* Build configuration list for PBXNativeTarget "nfc_real_tag" */;
+			buildPhases = (
+				E1A085D227689BC0000F3662 /* Sources */,
+				E1A085D327689BC0000F3662 /* Frameworks */,
+				E1A085D427689BC0000F3662 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nfc_real_tag;
+			productName = nfc_real_tag;
+			productReference = E1A085D627689BC0000F3662 /* nfc_real_tag.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1A085EB27689BC1000F3662 /* nfc_real_tagTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1A0860327689BC1000F3662 /* Build configuration list for PBXNativeTarget "nfc_real_tagTests" */;
+			buildPhases = (
+				E1A085E827689BC1000F3662 /* Sources */,
+				E1A085E927689BC1000F3662 /* Frameworks */,
+				E1A085EA27689BC1000F3662 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1A085EE27689BC1000F3662 /* PBXTargetDependency */,
+			);
+			name = nfc_real_tagTests;
+			productName = nfc_real_tagTests;
+			productReference = E1A085EC27689BC1000F3662 /* nfc_real_tagTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E1A085F527689BC1000F3662 /* nfc_real_tagUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1A0860627689BC1000F3662 /* Build configuration list for PBXNativeTarget "nfc_real_tagUITests" */;
+			buildPhases = (
+				E1A085F227689BC1000F3662 /* Sources */,
+				E1A085F327689BC1000F3662 /* Frameworks */,
+				E1A085F427689BC1000F3662 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1A085F827689BC1000F3662 /* PBXTargetDependency */,
+			);
+			name = nfc_real_tagUITests;
+			productName = nfc_real_tagUITests;
+			productReference = E1A085F627689BC1000F3662 /* nfc_real_tagUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1A085CE27689BC0000F3662 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					E1A085D527689BC0000F3662 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					E1A085EB27689BC1000F3662 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = E1A085D527689BC0000F3662;
+					};
+					E1A085F527689BC1000F3662 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = E1A085D527689BC0000F3662;
+					};
+				};
+			};
+			buildConfigurationList = E1A085D127689BC0000F3662 /* Build configuration list for PBXProject "nfc_real_tag" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1A085CD27689BC0000F3662;
+			productRefGroup = E1A085D727689BC0000F3662 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1A085D527689BC0000F3662 /* nfc_real_tag */,
+				E1A085EB27689BC1000F3662 /* nfc_real_tagTests */,
+				E1A085F527689BC1000F3662 /* nfc_real_tagUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1A085D427689BC0000F3662 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A085E627689BC1000F3662 /* LaunchScreen.storyboard in Resources */,
+				E1A085E327689BC1000F3662 /* Assets.xcassets in Resources */,
+				E1A085E127689BC0000F3662 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1A085EA27689BC1000F3662 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1A085F427689BC1000F3662 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1A085D227689BC0000F3662 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A085DE27689BC0000F3662 /* ViewController.swift in Sources */,
+				E1A085DA27689BC0000F3662 /* AppDelegate.swift in Sources */,
+				E1A085DC27689BC0000F3662 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1A085E827689BC1000F3662 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A085F127689BC1000F3662 /* nfc_real_tagTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1A085F227689BC1000F3662 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A085FB27689BC1000F3662 /* nfc_real_tagUITests.swift in Sources */,
+				E1A085FD27689BC1000F3662 /* nfc_real_tagUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1A085EE27689BC1000F3662 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1A085D527689BC0000F3662 /* nfc_real_tag */;
+			targetProxy = E1A085ED27689BC1000F3662 /* PBXContainerItemProxy */;
+		};
+		E1A085F827689BC1000F3662 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1A085D527689BC0000F3662 /* nfc_real_tag */;
+			targetProxy = E1A085F727689BC1000F3662 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E1A085DF27689BC0000F3662 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1A085E027689BC0000F3662 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1A085E427689BC1000F3662 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1A085E527689BC1000F3662 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1A085FE27689BC1000F3662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1A085FF27689BC1000F3662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1A0860127689BC1000F3662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9N34KN8RBG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = nfc_real_tag/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uz.prep.nfc-real-tag";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1A0860227689BC1000F3662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9N34KN8RBG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = nfc_real_tag/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uz.prep.nfc-real-tag";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E1A0860427689BC1000F3662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9N34KN8RBG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uz.prep.nfc-real-tagTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nfc_real_tag.app/nfc_real_tag";
+			};
+			name = Debug;
+		};
+		E1A0860527689BC1000F3662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9N34KN8RBG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uz.prep.nfc-real-tagTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nfc_real_tag.app/nfc_real_tag";
+			};
+			name = Release;
+		};
+		E1A0860727689BC1000F3662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9N34KN8RBG;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uz.prep.nfc-real-tagUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = nfc_real_tag;
+			};
+			name = Debug;
+		};
+		E1A0860827689BC1000F3662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9N34KN8RBG;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uz.prep.nfc-real-tagUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = nfc_real_tag;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1A085D127689BC0000F3662 /* Build configuration list for PBXProject "nfc_real_tag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1A085FE27689BC1000F3662 /* Debug */,
+				E1A085FF27689BC1000F3662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1A0860027689BC1000F3662 /* Build configuration list for PBXNativeTarget "nfc_real_tag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1A0860127689BC1000F3662 /* Debug */,
+				E1A0860227689BC1000F3662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1A0860327689BC1000F3662 /* Build configuration list for PBXNativeTarget "nfc_real_tagTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1A0860427689BC1000F3662 /* Debug */,
+				E1A0860527689BC1000F3662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1A0860627689BC1000F3662 /* Build configuration list for PBXNativeTarget "nfc_real_tagUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1A0860727689BC1000F3662 /* Debug */,
+				E1A0860827689BC1000F3662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1A085CE27689BC0000F3662 /* Project object */;
+}
