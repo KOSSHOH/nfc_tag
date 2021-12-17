@@ -50,7 +50,6 @@
 		E1A085FA27689BC1000F3662 /* nfc_real_tagUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nfc_real_tagUITests.swift; sourceTree = "<group>"; };
 		E1A085FC27689BC1000F3662 /* nfc_real_tagUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nfc_real_tagUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E1A0860927689C2E000F3662 /* nfc_real_tag.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = nfc_real_tag.entitlements; sourceTree = "<group>"; };
-		E1A0860A27689C3D000F3662 /* nfc_real_tagRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = nfc_real_tagRelease.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +100,6 @@
 		E1A085D827689BC0000F3662 /* nfc_real_tag */ = {
 			isa = PBXGroup;
 			children = (
-				E1A0860A27689C3D000F3662 /* nfc_real_tagRelease.entitlements */,
 				E1A0860927689C2E000F3662 /* nfc_real_tag.entitlements */,
 				E1A085D927689BC0000F3662 /* AppDelegate.swift */,
 				E1A085DB27689BC0000F3662 /* SceneDelegate.swift */,
@@ -444,7 +442,7 @@
 				CODE_SIGN_ENTITLEMENTS = nfc_real_tag/nfc_real_tag.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9N34KN8RBG;
+				DEVELOPMENT_TEAM = DNKU4QZ76B;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = nfc_real_tag/Info.plist;
 				INFOPLIST_KEY_NFCReaderUsageDescription = "NFC Scanner";
@@ -458,11 +456,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "uz.prep.nfc-real-tag";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goloviznin.eldar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -471,10 +469,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = nfc_real_tag/nfc_real_tagRelease.entitlements;
+				CODE_SIGN_ENTITLEMENTS = nfc_real_tag/nfc_real_tag.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9N34KN8RBG;
+				DEVELOPMENT_TEAM = DNKU4QZ76B;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = nfc_real_tag/Info.plist;
 				INFOPLIST_KEY_NFCReaderUsageDescription = "NFC Scanner";
@@ -488,11 +486,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "uz.prep.nfc-real-tag";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goloviznin.eldar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

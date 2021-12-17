@@ -11,6 +11,8 @@ import CoreNFC
 class ViewController: UIViewController {
     
     var nfcTagReaderSession: NFCTagReaderSession?
+    
+    private var connectedTag: NFCTag?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,18 +41,47 @@ extension ViewController: NFCTagReaderSessionDelegate {
     }
 
     func tagReaderSession(_ session: NFCTagReaderSession, didInvalidateWithError error: Error) {
-        print("\(error)")
+        print("NFCTagReaderSession error:", "\(error)")
+        if connectedTag == nil {
+            session.restartPolling()
+        }
     }
 
     func tagReaderSession(_ session: NFCTagReaderSession, didDetect tags: [NFCTag]) {
         print("\(tags)")
         for tag in tags {
-            let rfidTag = tag as! NFCISO15693Tag
-            print("- Is available: \(rfidTag.isAvailable)")
-            print("- Type: \(rfidTag.type)")
-            print("- IC Manufacturer Code: \(rfidTag.icManufacturerCode)")
-            print("- IC ,: \(rfidTag.icSerialNumber)")
-            print("- Identifier: \(rfidTag.identifier)")
+            switch tag {
+            case .feliCa(let feliCaTag):
+                print("type", "FeliCa")
+                print("identifier", feliCaTag.currentIDm.map { String(format: "%.2hhx", $0) }.joined())
+            case .iso15693(let iso15693Tag):
+                print("type", "ISO15693")
+                print("identifier", iso15693Tag.identifier.map { String(format: "%.2hhx", $0) }.joined())
+            case .iso7816(let iso7816Tag):
+                print("type", "ISO14443-4")
+                print("identifier", iso7816Tag.identifier.map { String(format: "%.2hhx", $0) }.joined())
+            case .miFare(let miFareTag):
+                print("type", "MiFare")
+                print("identifier", miFareTag.identifier.map { String(format: "%.2hhx", $0) }.joined())
+            @unknown default:
+                continue
+            }
+            
+            print("Connecting to", tag)
+            
+            nfcTagReaderSession?.connect(to: tag) { [weak self] error in
+                if let error = error {
+                    print("Error while connecting to \(tag):", error.localizedDescription)
+                    return
+                }
+                
+                self?.connectedTag = tag
+                
+                print("Connected to", tag)
+                
+                self?.nfcTagReaderSession?.invalidate()
+            }
+            return
         }
     }
 }
